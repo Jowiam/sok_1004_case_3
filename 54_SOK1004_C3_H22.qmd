@@ -240,7 +240,7 @@ Beregn en totalindeks hvor dere bruker vektene og verdiene på prisindeks i form
 
 ```{r}
 # besvar oppgave IIIb her
-
+Vi vet at beregningene er riktig ved å se at verdiene summerer seg til omlag 80 i alle kategoriene siden standar året 2015 har det.
 
 kpi_index <- kpi %>%
   filter(statistikkvariabel == 'Konsumprisindeks (2015=100)') %>% 
